@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="8dp">
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_marginTop="8dp"
+        android:layout_width="56dp"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/cancel"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/cross"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:id="@+id/title_textview"
+        android:layout_toRightOf="@id/icon"
+        android:layout_marginLeft="8dp"
+        android:layout_toLeftOf="@id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="top"
+        android:paddingTop="8dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:text="TEST"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/description_textview"
+        android:layout_below="@id/title_textview"
+        android:layout_toRightOf="@id/icon"
+        android:layout_toLeftOf="@id/cancel"
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:text="Hi! Lets meet later"
+        android:textSize="16sp"/>
+</RelativeLayout>

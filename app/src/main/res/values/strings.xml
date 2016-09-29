@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Notify</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_notification">AddNotificationActivity</string>
+    <string name="main_activity_title">My Notifications</string>
+    <string name="icon_dialog_title">Icons</string>
+    <string name="not_valid_time">Please set valid time.</string>
+    <string name="icon_chooser_text">Select Icon</string>
+    <string name="notification_title_hint">Set title to your notification.</string>
+    <string name="notification_text_hint">Set text to your notification.</string>
+
+
+    <string name="add_notification_activity_title">Add Notification</string>
+    <string name="add_notification_title">Title</string>
+    <string name="add_notification_text">Text</string>
+    <string name="add_notification_icon">Icon</string>
+    <string name="add_notification_priority">Priority</string>
+    <string name="add_notification_date">Date</string>
+    <string name="add_notification_time">Time</string>
+    <string-array name="priorities_array">
+        <item>Max</item>
+        <item>High</item>
+        <item>Default</item>
+        <item>Low</item>
+        <item>Min</item>
+    </string-array>
+</resources>
